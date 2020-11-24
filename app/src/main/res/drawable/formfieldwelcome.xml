@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+android:shape="rectangle">
+<corners
+    android:radius="6dp"/>
+
+<padding
+    android:left="8dp"
+    android:top="8dp"
+    android:right="8dp"
+    android:bottom="8dp"/>
+<solid
+    android:color="@color/colorFondobtnwelcome"
+    />
+<stroke
+    android:color="@color/colorBordeFondobtnwelcome"
+    android:width="3dp"
+    />
+</shape>

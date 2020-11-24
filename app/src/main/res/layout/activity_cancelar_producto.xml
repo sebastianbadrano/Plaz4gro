@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_goneMarginBottom="32dp"
+    tools:context=".CancelarProducto">
+
+    <LinearLayout
+        android:id="@+id/Superior"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#EE7400"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:id="@+id/Titulo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="16dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:contentDescription="@android:string/ok"
+                android:onClick="Anterior"
+                app:srcCompat="@drawable/ic_grupo_409" />
+
+            <TextView
+                android:id="@+id/Textotitulo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:contentDescription="@android:string/selectTextMode"
+                android:text="Ayuda y soporte"
+                android:textColor="#FFFFFF"
+                android:textSize="24sp" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/Inferior"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="#F0D276"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Superior">
+
+        <LinearLayout
+            android:id="@+id/Cuerpo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:outlineSpotShadowColor="#3F51B5">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="48dp"
+                android:layout_marginVertical="24dp"
+                android:text="Cambiar o cancelar un producto"
+                android:textColor="#076110"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="48dp"
+                android:layout_marginVertical="12dp"
+                android:text="Puedes cancelar un producto que pediste si aún no ha sido enviado, para esto debes ir a tu lista de pedidos seleccionar el producto y luego cancelarlo. Si tienes problemas con esto,  puedes comunicarte con nosotros." />
+
+            <ImageView
+                android:id="@+id/imageView16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="?attr/editTextBackground" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="48dp"
+                android:layout_marginVertical="24dp"
+                android:text="A continuación puede escribir o enviar una nota de voz a cerca del problema relacionado con la seguridad" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="48dp"
+                android:background="@drawable/formfield"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Escriba o grabe su problema" />
+
+            <LinearLayout
+                android:id="@+id/ZonaGrabar"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btn_rec"
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:layout_marginHorizontal="48dp"
+                    android:layout_marginVertical="16dp"
+                    android:layout_weight="1"
+                    android:background="@android:drawable/presence_audio_online" />
+
+                <Button
+                    android:id="@+id/btn_play"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="12dp"
+                    android:layout_weight="1"
+                    android:background="@android:drawable/ic_media_play" />
+
+                <Button
+                    android:id="@+id/Enviarbtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="48dp"
+                    android:layout_marginVertical="16dp"
+                    android:backgroundTint="#4B8115"
+                    android:text="Enviar"
+                    android:textColor="#FFFFFF" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

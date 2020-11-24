@@ -1,0 +1,27 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorGreen</item>
+        <item name="colorPrimaryDark">@color/colorGreen</item>
+        <item name="colorAccent">@color/colorGreen</item>
+        <!--<item name="colorWhite">@color/colorWhite</item>
+        <item name="colorBlack">@color/colorBlack</item>
+        <item name="colorGray">@color/colorGray</item>
+        <item name="colorGreen">@color/colorGreen</item>
+        <item name="colorDGreen">@color/colorDGreen</item>
+        <item name="colorOrange">@color/colorOrange</item>
+        <item name="colorDOrange">@color/colorDOrange</item>
+        <item name="colorBG">@color/colorBG</item>-->
+    </style>
+    <style name="Plaz4groTheme" parent="Theme.AppCompat">
+        <item name="android:textColor">@color/colorBlack</item>
+    </style>
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+</resources>

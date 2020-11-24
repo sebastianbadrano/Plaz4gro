@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "604475475802",
+    "firebase_url": "https://appmoviles-a9621.firebaseio.com",
+    "project_id": "appmoviles-a9621",
+    "storage_bucket": "appmoviles-a9621.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:604475475802:android:a16acb694e307ce0451563",
+        "android_client_info": {
+          "package_name": "com.example.plaz4gro"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "604475475802-ridna23ueiecdps1k20g9t2k09ehk0dp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBlASDQ0jG_MUheZDxyucqZQxDZqz-QrvI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "604475475802-ridna23ueiecdps1k20g9t2k09ehk0dp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

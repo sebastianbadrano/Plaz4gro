@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBG"
+    android:scrollbars="vertical"
+    tools:context=".TarjetaCredito">
+
+    <LinearLayout
+        android:id="@+id/superiorBar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@color/colorOrange"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/titleText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="12dp"
+            android:text="@string/credit_title"
+            android:textColor="@color/colorWhite"
+            android:textSize="23sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <!--
+        <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        -->
+
+    <EditText
+        android:id="@+id/nameField"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:autofillHints="true"
+        android:background="@drawable/inputfield"
+        android:hint="@string/field_name"
+        android:inputType="textPersonName"
+        android:textColor="@color/colorBlack"
+        android:textColorHint="@color/colorGray"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/superiorBar" />
+
+    <Spinner
+        android:id="@+id/idType"
+        android:layout_width="96dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/inputfield"
+        android:theme="@style/Plaz4groTheme"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nameField" />
+
+    <EditText
+        android:id="@+id/idNumber"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:autofillHints="false"
+        android:background="@drawable/inputfield"
+        android:ems="10"
+        android:hint="@string/field_document"
+        android:inputType="number"
+        android:textColor="@color/colorBlack"
+        android:textColorHint="@color/colorGray"
+        app:layout_constraintBottom_toBottomOf="@+id/idType"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/idType"
+        app:layout_constraintTop_toTopOf="@+id/idType" />
+
+    <EditText
+        android:id="@+id/cardNumber"
+        android:layout_width="0dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:autofillHints="false"
+        android:background="@drawable/inputfield"
+        android:ems="10"
+        android:hint="@string/field_cardNumber"
+        android:inputType="number"
+        android:textColorHint="@color/colorGray"
+        android:textColor="@color/colorBlack"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/idType" />
+
+    <EditText
+        android:id="@+id/secCode"
+        android:layout_width="0dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:autofillHints="false"
+        android:background="@drawable/inputfield"
+        android:ems="10"
+        android:hint="@string/field_securityCode"
+        android:inputType="number"
+        android:textColorHint="@color/colorGray"
+        android:textColor="@color/colorBlack"
+        app:layout_constraintBottom_toBottomOf="@+id/cardNumber"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/cardNumber"
+        app:layout_constraintTop_toTopOf="@+id/cardNumber" />
+
+    <TextView
+        android:id="@+id/dueDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/text_due"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardNumber" />
+
+    <Spinner
+        android:id="@+id/month"
+        android:layout_width="178dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        android:autofillHints="false"
+        android:background="@drawable/inputfield"
+        android:drawableEnd="@drawable/ic_arrow_black"
+        android:drawableRight="@drawable/ic_arrow_black"
+        android:ems="10"
+        android:hint="@string/field_month"
+        android:inputType="number"
+        android:textColorHint="@color/colorGray"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dueDate" />
+
+    <Spinner
+        android:id="@+id/year"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:autofillHints="false"
+        android:background="@drawable/inputfield"
+        android:drawableEnd="@drawable/ic_arrow_black"
+        android:drawableRight="@drawable/ic_arrow_black"
+        android:ems="10"
+        android:hint="@string/field_year"
+        android:inputType="number"
+        android:textColorHint="@color/colorGray"
+        app:layout_constraintBottom_toBottomOf="@+id/month"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/month"
+        app:layout_constraintTop_toTopOf="@+id/month" />
+
+    <Spinner
+        android:id="@+id/cuotas"
+        android:layout_width="140dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:autofillHints="false"
+        android:background="@drawable/inputfield"
+        android:drawableEnd="@drawable/ic_arrow_black"
+        android:drawableRight="@drawable/ic_arrow_black"
+        android:ems="10"
+        android:hint="@string/field_dues"
+        android:inputType="number"
+        android:textColorHint="@color/colorGray"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/month" />
+
+    <EditText
+        android:id="@+id/celular"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:autofillHints="false"
+        android:background="@drawable/inputfield"
+        android:ems="10"
+        android:hint="@string/field_phone"
+        android:inputType="number"
+        android:textColorHint="@color/colorGray"
+        android:textColor="@color/colorBlack"
+        app:layout_constraintBottom_toBottomOf="@+id/cuotas"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/cuotas"
+        app:layout_constraintTop_toTopOf="@+id/cuotas" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/text_agreement"
+        android:textColor="@color/colorGray"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cuotas" />
+
+    <Button
+        android:id="@+id/payButton"
+        android:layout_width="141dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="24dp"
+        android:background="@drawable/buttonfield"
+        android:text="@string/button_pay"
+        android:textColor="@color/colorWhite"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox" />
+
+    <!--
+    </ScrollView>
+    -->
+
+</androidx.constraintlayout.widget.ConstraintLayout>

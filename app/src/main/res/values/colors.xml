@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorBlack">#2B2B2B</color>
+    <color name="colorGray">#707070</color>
+    <color name="colorLGreen">#9EAA46</color>
+    <color name="colorGreen">#4B8115</color>
+    <color name="colorDGreen">#076110</color>
+    <color name="colorOrange">#EE7400</color>
+    <color name="colorDOrange">#CC4803</color>
+    <color name="colorBG">#F0D276</color>
+    <color name="colorPeach">#FAF0D2</color>
+
+    <!-- Colores sebastian badran-->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="colorFondo">#F0D276</color>
+    <color name="colorFondobtn">#4B8115</color>
+    <color name="colorBordeFondobtn">#076110</color>
+    <color name="colorTextoGris">#707070</color>
+    <color name="colorFondobtnwelcome">#EE7400</color>
+    <color name="colorBordeFondobtnwelcome">#C56101</color>
+    <!-- Colores sebastian badran-->
+
+
+</resources>

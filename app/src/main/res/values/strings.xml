@@ -1,0 +1,243 @@
+<resources>
+    <string name="app_name">Plaz4gro</string>
+    <!--Autenticación-->
+    <string name="btn_inicioSesion">INICIAR SESIÓN</string>
+    <string name="btn_registro">REGISTRO</string>
+    <string name="btn_huella">INICIO HUELLA</string>
+    <string name="btn_tomarFoto">TOMAR UNA FOTO</string>
+    <string name="btn_registrarse">REGISTRARSE</string>
+    <string name="btn_changepassword">CAMBIAR CONTRASEÑA</string>
+    <string name="btn_sendemail">ENVIAR AL CORREO</string>
+    <string name="btn_validcode">VALIDAR CODIGO</string>
+    <!--Carrito-->
+    <string name="order_list_item_product">Nombre Producto</string>
+    <string name="order_list_item_farmer">Cosechador del Producto</string>
+    <string name="order_list_item_quantity">XXX Unidad</string>
+    <string name="order_list_item_delete">Eliminar</string>
+    <string name="order_list_title">Productos en su pedido</string>
+    <string name="order_list_payment">Realizar Pago</string>
+    <!--Opciones de pago-->
+    <string name="payment_list_title">Opciones de Pago</string>
+    <string name="payment_option1">PSE</string>
+    <string name="payment_option2">Pago en Efectivo</string>
+    <string name="cash_option1">Efecty</string>
+    <string name="cash_option2">Chance</string>
+    <string name="cash_option3">Vía Baloto</string>
+    <string name="payment_option3">Tarjetas Débito</string>
+    <string name="debit_option1">Davivienda</string>
+    <string name="debit_option2">Bancolombia</string>
+    <string name="debit_option3">Banco de Bogotá / Grupo AVAL</string>
+    <string name="payment_option4">Tarjetas Crédito</string>
+    <string name="credit_option1">VISA</string>
+    <string name="credit_option2">MasterCard</string>
+    <string name="credit_option3">American Express</string>
+    <string name="credit_option4">Diners Club</string>
+    <string name="credit_option5">Crédito Fácil CODENSA</string>
+    <!--Campos tarjeta crédito-->
+    <string name="credit_title">Ingrese los Datos de su Tarjeta</string>
+    <string name="field_name">Nombre</string>
+    <string name="field_documentType">--</string>
+    <string name="field_document">Número de Identificación</string>
+    <string name="field_cardNumber">Número de Tarjeta</string>
+    <string name="field_securityCode">Código de Seguridad</string>
+    <string name="text_due">Fecha de Vencimiento</string>
+    <string name="field_month">Mes</string>
+    <string name="field_year">Año</string>
+    <string name="field_dues">Cuotas</string>
+    <string name="field_phone">Teléfono Celular</string>
+    <string name="text_agreement">Acepto los términos y condiciones y la política de privacidad</string>
+    <string name="button_pay">Pagar</string>
+    <string name="cash_title">Detalle de la transacción</string>
+    <string name="header_convention">Número de Convenio</string>
+    <string name="header_payment_reference">Referencia de Pago</string>
+    <string name="header_value">Valor a Pagar</string>
+    <!-- Pagos en Efectivo -->
+    <string name="header_duedate">Pagar Antes de</string>
+    <string name="header_buydate">Fecha de Compra</string>
+    <string name="header_description">Descripción</string>
+    <string name="example_convention">000000</string>
+    <string name="example_payment_reference">0000000000</string>
+    <string name="example_value">COP $000,000</string>
+    <string name="example_duedate">01 / Ene / 00</string>
+    <string name="example_buydate">01 / Ene / 00 - 00:00 am</string>
+    <string name="example_description">Compra en línea Plaz4gro</string>
+    <string-array name="field_documentTypeDrop">
+        <item>-Tipo-</item>
+        <item>RC Registro Civil</item>
+        <item>TI Tarjeta de Identidad</item>
+        <item>CC Cédula de Ciudadanía</item>
+        <item>CE Cédula de Extranjería</item>
+        <item>PS Pasaporte</item>
+    </string-array>
+    <string-array name="field_monthDrop">
+        <item>-Mes-</item>
+        <item>Enero</item>
+        <item>Febrero</item>
+        <item>Marzo</item>
+        <item>Abril</item>
+        <item>Mayo</item>
+        <item>Junio</item>
+        <item>Julio</item>
+        <item>Agosto</item>
+        <item>Septiembre</item>
+        <item>Octubre</item>
+        <item>Noviembre</item>
+        <item>Diciembre</item>
+    </string-array>
+    <string-array name="field_yearDrop">
+        <item>-Año-</item>
+        <item>2020</item>
+        <item>2021</item>
+        <item>2022</item>
+        <item>2023</item>
+        <item>2024</item>
+        <item>2025</item>
+        <item>2026</item>
+        <item>2027</item>
+        <item>2028</item>
+        <item>2029</item>
+        <item>2030</item>
+    </string-array>
+    <string-array name="field_duesDrop">
+        <item>-Cuotas-</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+    </string-array>
+    <!--Home Principal-->
+    <string name="app_name_Mayus">PLAZ4GRO</string>
+    <string name="text_hint_Buscar">Ingresa el nombre del producto a buscar</string>
+
+    <!--Mis Compras-->
+    <string name="order_list_item_product2">Nombre del Vendedor</string>
+    <string name="order_list_item_farmer2">Fecha recibido</string>
+    <string name="order_list_item_quantity2">XXX Unidad</string>
+    <string name="order_list_item_delete2">Eliminar</string>
+    <string name="order_list_title3">Tus Pedidos</string>
+    <string name="order_list_payment2">Necesito Ayuda</string>
+    <string name="order_list_image">Imagen producto</string>
+    <string name="order_item_details">Detalles</string>
+    <string name="order_item_help">Ayuda</string>
+    <string name="order_list_subtitle">Aquí encontrarás todas tus compras
+        y servicios finalizados y en curso.</string>
+    <string name="order_list_subtitle2">Pedidos Finalizados</string>
+    <string name="imagen_perfil">Imagen</string>
+
+
+    <!--Detalles-->
+    <string name="order_list_title2">Detalles</string>
+    <string name="order_list_subtitle3">Nombre del vendedor</string>
+    <string name="order_list_subtitle4">Nombre del transportista</string>
+    <string name="order_item_text1">Fecha recibido</string>
+    <string name="order_item_text2">Medio de entrega</string>
+    <string name="order_item_text3">Datos de contacto</string>
+    <string name="order_item_text4">Opinar sobre vendedor</string>
+    <string name="order_item_text5">Nombre de producto</string>
+    <string name="order_item_text9">Dirección de entrega</string>
+    <string name="order_item_text10">Detalles de pago</string>
+    <string name="order_item_text11">Detalles de transacción</string>
+
+    <!--Detalles contacto-->
+    <string name="telefono_fijo">Teléfono fijo</string>
+    <string name="telefono_fijo2">7523596</string>
+    <string name="celular">Celular</string>
+    <string name="celular2">+57 3223650958</string>
+    <string name="correo">Correo</string>
+    <string name="correo2">Pepito19@gmail.com</string>
+
+    <!--Tarjeta-->
+    <string name="nombre_de_producto">Nombre de producto</string>
+    <string name="n_unidades">XX unidades</string>
+    <string name="costo">$15000</string>
+    <string name="desc">Descripción</string>
+
+    <!--Dirección-->
+    <string name="direccion_entrega">Dirección de entrega</string>
+    <string name="direccion">Cll 78B #120 - 49</string>
+
+    <!--Detalles de pago-->
+    <string name="detalles_pago">Detalles de pago</string>
+    <string name="subtotal_productos">Subtotal de productos</string>
+    <string name="cost_transporte">Costo de transporte</string>
+    <string name="subtotal_productos2">$10000</string>
+    <string name="cost_transporte2">$5000</string>
+    <string name="total_costos">Total costos</string>
+
+    <!--Transacción-->
+    <string name="detalles_transaccion">Detalles de transacción</string>
+    <string name="fecha_trans">20 de sep. de 2020 18:08</string>
+    <string name="pago_trans">Pago con TC 0000</string>
+
+    <!--Opinar sobre el vendedor-->
+    <string name="opinar_title">Opinar sobre el vendedor</string>
+    <string name="opinar_subtitle">Aquí podrás opinar cómo fue el servicio que te
+        dio el vendedor en todo el transcurso de la compra.</string>
+    <string name="opinar_subtitle2">¿Cómo fue la atención del vendedor?</string>
+    <string name="enviar">Enviar</string>
+    <string name="bueno">Bueno</string>
+    <string name="regular">Regular</string>
+    <string name="malo">Malo</string>
+    <string name="input_text">Ingrese una descripción</string>
+
+
+    <!--Mensaje Push-->
+    <string name="descripcion_push">Porfavor regrese al menu anterior y agite el telefono para redireccionar al menu de ayuda</string>
+    <string name="ok_push">De acuerdo</string>
+    <string name="cancel_push">Cancelar</string>
+
+
+    <!-- Strings sebastian badran-->
+    <string name="registrarseBnt">Registrarse</string>
+    <string name="usuario">Usuario</string>
+    <string name="contrasenia">Contrasenia</string>
+    <string name="confirmarContrasenia">Registrarse</string>
+    <string name="subirImagenBtn">Subir imagen</string>
+    <string name="main_btnsalir">Salir</string>
+    <string name="main_btnentrar">Entrar</string>
+    <string name="ayudaop3_textbnt">sigo teniendo problemas</string>
+    <string name="ayudaop3_1_enviartextbnt">Enviar</string>
+    <string name="title_activity_navigation_menu">quiensabe</string>
+    <string name="nav_header_desc">quiensabe2</string>
+    <string name="nav_header_title">quiensabe3</string>
+    <string name="nav_header_subtitle">quiensabe4</string>
+
+    <string name="title_activity_homeprueba">Homeprueba</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_home">Home</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="hello_world">Hello Square World!</string>
+    <!-- Strings sebastian badran-->
+
+</resources>

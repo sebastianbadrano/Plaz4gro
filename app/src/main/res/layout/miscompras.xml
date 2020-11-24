@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBG"
+    tools:context=".MisCompras">
+
+    <LinearLayout
+        android:id="@+id/superiorBar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@color/colorOrange"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/superior2Bar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/atrasButton"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_margin="12dp"
+            android:background="@drawable/ic_menu" />
+
+        <TextView
+            android:id="@+id/tituloOpinar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="12dp"
+            android:text="@string/order_list_title2"
+            android:textColor="@color/colorWhite"
+            android:textSize="23sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/superior2Bar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@color/colorOrange"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/superiorBar">
+
+        <TextView
+            android:id="@+id/subOpinar2"
+            android:layout_width="317dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="12dp"
+            android:text="@string/order_list_subtitle"
+            android:textColor="@color/colorWhite"
+            android:textSize="15sp"
+            android:textStyle="normal" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/superior3Bar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@color/colorBG"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/superior2Bar">
+
+        <TextView
+            android:id="@+id/subOpinar"
+            android:layout_width="317dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="12dp"
+            android:text="@string/order_list_subtitle2"
+            android:textColor="@color/colorDGreen"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/mainList"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="8dp"
+        android:background="@color/colorBG"
+        android:cacheColorHint="@color/colorBG"
+        android:divider="@color/colorGray"
+        android:dividerHeight="2dp"
+        app:layout_constraintBottom_toTopOf="@+id/enviarButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/superior3Bar">
+
+    </ListView>
+
+    <Button
+        android:id="@+id/enviarButton"
+        android:layout_width="180dp"
+        android:layout_height="49dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/buttonfield"
+        android:text="@string/order_list_payment2"
+        android:textColor="@color/colorWhite"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
